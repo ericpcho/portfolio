@@ -161,13 +161,13 @@ background-size: 100%;
 }
 
 .about-me a:link {
-	color: green;
 	font-style: italic;
 	text-decoration: none;
+	color: rgb(24, 177, 0);
 }
 
 .about-me a:visited {
-	color: rgb(122, 108, 152);
+	color: rgb(24, 177, 0);
 }
 
 .work {
@@ -182,25 +182,33 @@ background-size: 100%;
 	text-align: center;
 }
 
+.work a {
+	color: rgb(0, 179, 255)
+}
+
 .project {
 	width: 800px;
 	margin: auto;
 }
 
-.project h2 {
-	font-size: 40px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-right: 25px;
+.project p {
+	font-size: 20px;
+}
+
+.project-description a {
+	color: rgb(0, 179, 255);
 }
 
 .project a {
 	font-size: 20px;
+	font-style: italic;
 	text-decoration: none;
 }
 
 .project li{
 font-size: 20px;
+padding-left: 25px;
+padding-right: 25px;
 }
 
 .project img {
@@ -214,18 +222,6 @@ font-size: 20px;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-bottom: 25px;
-}
-
-.project-links {
-	font-size: 20px;
-	width: 650px;
-	margin: auto;
-	border: 1px solid black;
-}
-
-.project-link {
-	display: inline-block;
-	padding: 5px;
 }
 
 footer {
@@ -247,11 +243,4 @@ footer span {
 
 footer h2 {
 	padding-left: 25px;
-}
-
-img.cocktail-menu {
-	height: 345px;
-	width: 610px;
-	position: relative;
-	top: -435px;
 }
