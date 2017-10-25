@@ -23,31 +23,18 @@ time, mark, audio, video {
 
 /* Custom CSS */
 
-.first-name {
-	font-family: 'Cinzel', serif;
-	position: relative;
-	border: 1px solid black;
+.name {
 	color: white;
-	top: -355px;
-	right: 250px;
 	font-size: 75px;
-}
-
-.last-name {
 	font-family: 'Cinzel', serif;
-	position: relative;
-	border: 1px solid black;
-	color: white;
-	top: -457px;
-	right: -270px;
-	font-size: 75px;
+	margin: 50px;
 }
 
 header {
 	background-color: black;
-	height: 350px;
 	width: 100%;	
 	display: flex;
+	justify-content: center;
 }
 
 logos h1 {
@@ -124,10 +111,9 @@ background-size: 100%;
 }
 
 .images {
-	border-radius: 50%;
-	width: 225px;
-	margin: auto;
-	left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: inline-block;
 }
 
 .logos {
@@ -142,18 +128,22 @@ background-size: 100%;
 
 
 .about > h2 {
-	font-size: 35px;
+	font-size: 30px;
 	padding-bottom: 5px;
 	border-bottom: .5px solid rgb(184, 184, 184);
 }
 
 .about {
-	padding-top: 50px;
-	font-size: 30px;
-	width: 650px;
+	padding-top: 45px;
+	font-size: 20px;
+	width: 750px;
 	margin: auto;
 	display: block;
-	font-family: 'Scheherazade';
+	font-family: 'Fanwood Text', serif;
+}
+
+.about span {
+	font-weight: bolder;
 }
 
 .about p{
@@ -161,18 +151,13 @@ background-size: 100%;
 }
 
 .about h1 {
-	font-size: 55px;
+	font-size: 45px;
 	text-align: center;
 }
 
 .about-end {
 	border-bottom: 1px solid grey;
 	padding-bottom: 40px;
-}
-
-.about-me span {
-	font-family: 'Scheherazade';
-	font-weight: bold;
 }
 
 .about-me a:link {
@@ -186,34 +171,56 @@ background-size: 100%;
 }
 
 .work {
-	justify-content: center;
-	font-family: 'Scheherazade';
+	padding-top: 55px;
+	font-family: 'Fanwood Text', serif;
+	padding-bottom: 20px;
 }
 
 .work h1 {
-	font-size: 55px;
+	font-size: 45px;
+	padding-bottom: 20px;
 	text-align: center;
+}
+
+.project {
+	width: 800px;
+	margin: auto;
 }
 
 .project h2 {
 	font-size: 40px;
-	text-align: center; 
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-right: 25px;
+}
+
+.project a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.project li{
+font-size: 20px;
 }
 
 .project img {
-	width: 750px;
+	width: 650px;;
 	margin: auto;
 	display: block;
 }
 
 .project-description {
 	font-size: 25px;
-	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
 }
 
 .project-links {
-	text-align: center;
 	font-size: 20px;
+	width: 650px;
+	margin: auto;
+	border: 1px solid black;
 }
 
 .project-link {
@@ -221,5 +228,30 @@ background-size: 100%;
 	padding: 5px;
 }
 
-.project {
+footer {
+	background: black;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Fanwood Text', serif;
+	font-size: 25px;
+}
+
+footer span {
+	padding-right: 25px;
+}
+
+footer h2 {
+	padding-left: 25px;
+}
+
+img.cocktail-menu {
+	height: 345px;
+	width: 610px;
+	position: relative;
+	top: -435px;
 }
