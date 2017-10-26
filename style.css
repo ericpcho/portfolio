@@ -218,6 +218,10 @@ max-width: 750px;
 	padding-right: 25px;
 }
 
+.monitor-anchor {
+	width: 50%;
+}
+
 .project-description {
 	font-size: 25px;
 	padding-left: 25px;
