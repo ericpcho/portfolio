@@ -25,9 +25,10 @@ time, mark, audio, video {
 
 .name {
 	color: white;
-	font-size: 75px;
+	font-size: 8vw;
 	font-family: 'Cinzel', serif;
 	margin: 50px;
+	max-width: 80%;
 }
 
 header {
@@ -136,8 +137,6 @@ background-size: 100%;
 .about {
 	padding-top: 45px;
 	font-size: 20px;
-	width: 750px;
-	margin: auto;
 	display: block;
 	font-family: 'Fanwood Text', serif;
 }
@@ -148,6 +147,10 @@ background-size: 100%;
 
 .about p{
 	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	max-width: 750px;
+	margin: auto;
 }
 
 .about h1 {
@@ -171,7 +174,7 @@ background-size: 100%;
 }
 
 .work {
-	padding-top: 55px;
+	padding-top: 45px;
 	font-family: 'Fanwood Text', serif;
 	padding-bottom: 20px;
 }
@@ -186,13 +189,11 @@ background-size: 100%;
 	color: rgb(0, 179, 255)
 }
 
-.project {
-	width: 800px;
-	margin: auto;
-}
 
 .project p {
 	font-size: 20px;
+	max-width: 750px;
+	margin: auto;
 }
 
 .project-description a {
@@ -205,17 +206,21 @@ background-size: 100%;
 	text-decoration: none;
 }
 
-.project li{
+.project li {
 font-size: 20px;
 padding-left: 25px;
 padding-right: 25px;
 display: block;
+margin: auto;
+max-width: 750px;
 }
 
 .project img {
-	width: 650px;;
+	max-width: 85%;
 	margin: auto;
 	display: block;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .project-description {
@@ -244,4 +249,121 @@ footer span {
 
 footer h2 {
 	padding-left: 25px;
+}
+
+@media only screen and (min-width: 1050px) { 
+	.name {
+		color: white;
+		font-size: 85px;
+		font-family: 'Cinzel', serif;
+		margin: 50px;
+		max-width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1050px) { 
+	header {
+		background-color: black;
+		width: 100%;	
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 750px) { 
+	.about h1 {
+		font-size: 25px;
+	}
+	.work h1 {
+		font-size: 25px;
+	}
+
+	.work {
+		padding-top: 25px;
+	}
+
+	.about {
+		padding-top: 25px;
+	}
+
+	.name {
+		margin: 25px;
+	}
+
+	.profile-picture {
+		width: 125px;
+	}
+
+	.logos a {
+		height: 34px; 
+		width: 34px;
+	}
+	
+	.linked-in {
+	top: -68px;
+	}
+	
+	.github {
+		left: 92px;
+		top: -197px;
+	}
+	
+	.email {
+		top: -130px;
+	}
+	
+	.instagram {
+		left: 92px;
+		top: -138px;
+	}
+
+	.main-nav li {
+		padding: 10px;
+	}
+		
+	.main-nav-link a {
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 500px) { 
+
+	.main-nav-link {
+		padding: 0px 5px;
+	}
+
+	.main-nav-link a {
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+
+	.profile-picture {
+		width: 105px;
+	}
+
+	.logos a {
+		height: 24px; 
+		width: 24px;
+	}
+	
+	.linked-in {
+	top: -58px;
+	}
+	
+	.github {
+		left: 83px;
+		top: -148px;
+	}
+	
+	.email {
+		top: -100px;
+	}
+	
+	.instagram {
+		left: 82px;
+		top: -106px;
+	}
 }
