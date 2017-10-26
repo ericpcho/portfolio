@@ -211,15 +211,15 @@ max-width: 750px;
 }
 
 .project img {
-	max-width: 85%;
+	width: 100%;
 	margin: auto;
 	display: block;
-	padding-left: 25px;
-	padding-right: 25px;
 }
 
 .monitor-anchor {
-	width: 50%;
+display: block;
+margin: auto;
+	max-width: 75%;
 }
 
 .project-description {
@@ -262,6 +262,11 @@ footer span {
 		max-height: 44px; 
 		max-width: 44px;
 }
+.monitor-anchor {
+	display: block;
+	margin: auto;
+	max-width: 800px;
+	}
 
 }
 
