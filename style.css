@@ -40,7 +40,7 @@ header {
 
 .main-nav {
 	width: 100%;
-	height: 25px;
+	height: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: inline-block;
@@ -54,7 +54,6 @@ header {
 
 .main-nav > ul {
 	display: flex;
-	align-items: center;
 max-width: 750px;
 padding-left: 25px;
 padding-right: 25px;
@@ -63,8 +62,9 @@ justify-content: space-between;
 }
 
 .main-nav-link {
-	padding: 0px 20px 0px 0px ;
-	display: inline-block;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
 }
 
 .my-work {
@@ -88,7 +88,7 @@ justify-content: space-between;
 
 .logos {
 	display: flex;
-align-items: center;
+	align-items: center;
 }
 
 .logos a {
@@ -102,12 +102,15 @@ align-items: center;
 	margin-left: 5px;
 }
 
-.logo-li {
-	padding: 0px;
+.logos a:hover {
+	border-bottom: none;
 }
+
 
 .logos span {
 	font-size: 20px;
+	text-decoration: none;
+	padding-top: 3px;
 }
 
 .linked-in {
@@ -278,6 +281,7 @@ footer span {
 		max-height: 30px; 
 		max-width: 30px;
 }
+
 .monitor-anchor {
 	display: block;
 	margin: auto;
@@ -313,15 +317,21 @@ footer span {
 		.logos span {
 			font-size: 15px;
 		}
+		.logo-li {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			}
 
 }
 
-@media only screen and (max-width: 539px) { 
+@media only screen and (max-width: 550px) { 
 
 	.logos a {
 		min-height: 14px; 
 		min-width: 14px;
 		flex-wrap: wrap;
+		padding-bottom:5px;
+		padding-top: 5px;
 	}
 
 	.logos span {
@@ -351,3 +361,4 @@ footer span {
 	.main-nav-link a {
 		font-size: 7px;
 	}
+}
