@@ -26,7 +26,7 @@ time, mark, audio, video {
 .name {
 	color: white;
 	font-size: 8vw;
-	font-family: 'Cinzel', serif;
+	font-family: 'Work Sans', thin;
 	margin: 50px;
 	max-width: 80%;
 }
@@ -49,7 +49,7 @@ header {
 	top: 0px;
 	border-bottom-left-radius: 2%;
 	border-bottom-right-radius: 2%;
-	font-family: 'Cinzel', serif;
+	font-family: 'Work Sans', thin;
 }
 
 .main-nav > ul {
@@ -220,13 +220,18 @@ background-size: 100%;
 	text-decoration: none;
 }
 
+.project-links{
+	display: flex;
+	max-width: 800px;
+	margin: auto;
+}
+
 .project li {
 font-size: 20px;
-padding-left: 25px;
-padding-right: 25px;
-display: block;
+display: inline-block;
 margin: auto;
-max-width: 750px;
+padding-bottom: 50px;
+padding-top: 5px;
 }
 
 .project img {
@@ -235,13 +240,30 @@ max-width: 750px;
 	display: block;
 }
 
-.monitor-anchor {
-display: block;
+.monitor {
+	display: inline-block;
+	max-width: 350px;
 margin: auto;
-	max-width: 75%;
 }
 
-.project-description {
+.monitor2 {
+	display: inline-block;
+	max-width: 350px;
+	margin: auto;
+}
+
+.monitor-anchor {
+display: flex;
+}
+
+.project-description1 {
+	font-size: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.project-description2 {
 	font-size: 25px;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -283,9 +305,26 @@ footer span {
 }
 
 .monitor-anchor {
-	display: block;
-	margin: auto;
+	display: flex;
 	max-width: 800px;
+	max-height: 250px;
+	margin: auto;
+	}
+
+	.projDesc {
+		display: flex;
+		max-width: 800px;
+		margin: auto;
+	}
+
+	.project-description1 {
+		display: inline-block;
+		padding-bottom: 10px;
+	}
+
+	.project-description2 {
+		display: inline-block;
+		padding-bottom: 10px;
 	}
 
 }
