@@ -160,6 +160,15 @@ background-size: 100%;
 	font-family: 'Fanwood Text', serif;
 }
 
+.work a {
+	color: rgb(0, 179, 255);
+}
+
+.project a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
 .about p{
 	padding-top: 20px;
 	padding-left: 25px;
@@ -192,32 +201,13 @@ background-size: 100%;
 	padding-top: 45px;
 	font-family: 'Fanwood Text', serif;
 	padding-bottom: 20px;
+	font-size: 20px;
 }
 
 .work h1 {
 	font-size: 45px;
-	padding-bottom: 20px;
 	text-align: center;
-}
 
-.work a {
-	color: rgb(0, 179, 255)
-}
-
-
-.project p {
-	font-size: 20px;
-	max-width: 750px;
-	margin: auto;
-}
-
-.project-description a {
-	color: rgb(0, 179, 255);
-}
-
-.project a {
-	font-size: 20px;
-	text-decoration: none;
 }
 
 .project-links{
@@ -226,49 +216,46 @@ background-size: 100%;
 	margin: auto;
 }
 
-.project li {
-font-size: 20px;
-display: inline-block;
-margin: auto;
-padding-bottom: 50px;
-padding-top: 5px;
-}
 
 .project img {
 	width: 100%;
-	margin: auto;
-	display: block;
 }
 
-.monitor {
+.monitor-div {
+	display: block;
+	margin: auto;
+	width: 90%;
+	padding: 5px;
+}
+
+.project {
+	display: block;
+	margin: auto;
+	width: 850px;
+	padding-top: 20px;
+	font-size: 20px
+}
+
+.project-box {
 	display: inline-block;
-	max-width: 350px;
+	max-width: 400px;
+	margin: auto;
+	padding: 10px;
+}
+
+.project-box p{
+width: 85%;
 margin: auto;
 }
 
-.monitor2 {
-	display: inline-block;
-	max-width: 350px;
+.project li {
+	font-size: 20px;
+	text-align: center;
+	display: block;
 	margin: auto;
-}
-
-.monitor-anchor {
-display: flex;
-}
-
-.project-description1 {
-	font-size: 25px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 25px;
-}
-
-.project-description2 {
-	font-size: 25px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 25px;
-}
+	padding-bottom: 50px;
+	padding-top: 5px;
+	}
 
 footer {
 	background: black;
@@ -304,32 +291,9 @@ footer span {
 		max-width: 30px;
 }
 
-.monitor-anchor {
-	display: flex;
-	max-width: 800px;
-	max-height: 250px;
-	margin: auto;
-	}
-
-	.projDesc {
-		display: flex;
-		max-width: 800px;
-		margin: auto;
-	}
-
-	.project-description1 {
-		display: inline-block;
-		padding-bottom: 10px;
-	}
-
-	.project-description2 {
-		display: inline-block;
-		padding-bottom: 10px;
-	}
-
 }
 
-@media only screen and (max-width: 750px) { 
+@media only screen and (max-width: 850px) { 
 	.about h1 {
 		font-size: 30px;
 	}
@@ -361,6 +325,19 @@ footer span {
 			padding-bottom: 5px;
 			}
 
+			.project {
+				display: block;
+				margin: auto;
+				width: 75%;
+				padding-top: 20px;
+				font-size: 20px
+			}
+
+			.project-box {
+				display: block;
+				width: 90%;
+				padding: 10px;
+			}
 }
 
 @media only screen and (max-width: 550px) { 
