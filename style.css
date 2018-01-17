@@ -91,7 +91,7 @@ justify-content: space-between;
 	align-items: center;
 }
 
-.logos a {
+.logos > a {
 	display: inline-block;
 	height: 3vw; 
 	width: 3vw;
@@ -102,7 +102,11 @@ justify-content: space-between;
 	margin-left: 5px;
 }
 
-.logos a:hover {
+.text-email:hover {
+	border-bottom: 1px sold white;
+}
+
+.logos > a:hover {
 	border-bottom: none;
 }
 
@@ -238,7 +242,7 @@ background-size: 100%;
 
 .project-box {
 	display: inline-block;
-	max-width: 400px;
+	width: 400px;
 	margin: auto;
 	padding: 10px;
 }
@@ -248,13 +252,20 @@ width: 85%;
 margin: auto;
 }
 
-.project li {
-	font-size: 20px;
+.project-link {
+	font-size: 15px;
 	text-align: center;
 	display: block;
-	margin: auto;
 	padding-bottom: 50px;
 	padding-top: 5px;
+	}
+
+.project-link span {
+	font-size: 15px;
+}
+
+	.project-link a {
+		font-size: 15px;
 	}
 
 footer {
@@ -285,7 +296,7 @@ footer span {
 		width: 210px;
 	}
 
-	.logos a {
+	.logos > a {
 		display: inline-block;
 		max-height: 30px; 
 		max-width: 30px;
@@ -314,12 +325,13 @@ footer span {
 		}
 
 		.main-nav-link a {
-			font-size: 15px;
+			font-size: 18px;
 		}
 	
 		.logos span {
 			font-size: 15px;
 		}
+
 		.logo-li {
 			padding-top: 5px;
 			padding-bottom: 5px;
@@ -328,23 +340,33 @@ footer span {
 			.project {
 				display: block;
 				margin: auto;
-				width: 75%;
+				width: 100%;
 				padding-top: 20px;
-				font-size: 20px
+				font-size: 20px;
 			}
 
 			.project-box {
-				display: block;
-				width: 90%;
-				padding: 10px;
+				width: 100%;
 			}
+
+			.monitor-div {
+				width: 80%;
+				margin-top: 15px;
+			}
+
+			.project-box p{
+				width: 95%;
+				margin-right: 15px;
+				margin-left: 15px;
+				}
+
 }
 
 @media only screen and (max-width: 550px) { 
 
 	.logos a {
-		min-height: 14px; 
-		min-width: 14px;
+		min-height: 17px; 
+		min-width: 17px;
 		flex-wrap: wrap;
 		padding-bottom:5px;
 		padding-top: 5px;
@@ -365,16 +387,10 @@ footer span {
 
 @media only screen and (max-width: 380px) { 
 	.main-nav-link a {
-		font-size: 10px;
+		font-size: 15px;
 	}
 
 	.logos span {
-		font-size: 10px;
-	}
-}
-
-@media only screen and (max-width: 380px) { 
-	.main-nav-link a {
-		font-size: 7px;
+		font-size: 15px;
 	}
 }
